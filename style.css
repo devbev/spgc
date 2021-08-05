@@ -3,6 +3,8 @@
 html{
     padding-top: 100px;
     padding-bottom: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 * {
@@ -21,7 +23,7 @@ html{
 .header{
     flex-basis: 100%;
     flex-grow: 0;
-    flex-shrink: 1;
+    flex-shrink: 0;
     background-color: rgb(247, 240, 240);
     padding-top: 50px;
     padding-left: 20px;
@@ -36,7 +38,7 @@ html{
 .subs{
     flex-basis: 50%;
     flex-grow: 0;
-    flex-shrink: 1;
+    flex-shrink: 0;
     background-color: hsl(218, 22%, 67%);
     padding-top: 50px;
     padding-left: 40px;
@@ -49,7 +51,7 @@ html{
 .whyus{
     flex-basis: 50%;
     flex-grow: 0;
-    flex-shrink: 1;
+    flex-shrink: 0;
     background-color: hsl(203, 30%, 76%);
     padding-top: 50px;
     padding-left: 40px;
